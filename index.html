@@ -7,6 +7,10 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/global.css">
+    <!-- MOBILE CSS -->
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/mobile.css">
+    <!-- FIRST SECTION IMAGE -->
+    <link rel="stylesheet" media="(max-width: 1058px)" href="css/large.css">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,16 +18,18 @@
     <div class="logo-area">
         <img src="images/logo.png" alt="Logo">
         <h3>Company</h3>
-        <i class="fa-solid fa-bars fa-xl"></i>
     </div>
     <nav>
         <div class="navbar">
             <ul>
                 <li>
-                    <a href="#">About</a>
+                    <a href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
                 </li>
             </ul>
         </div>
@@ -32,43 +38,48 @@
 </header>
 <body>
     <section class="first-section">
-        <div class="text-area">
-            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <div class="left-area">
+            <div class="text-area">
+                <h2>A LONDON-BASED AGENCY FOR ALL YOUR DIGITAL NEEDS.</h2>
+                <h1>The Truest Map To All Your Digital Needs.</h1>
+            </div>
+            <div class="button-area">
+                <button type="button" class="btn1">Contact for More</button>
+                <button type="button" class="btn2">Read More</button>
+            </div>
         </div>
-        <div class="button-area">
-            <button type="button" class="btn1">Button 1</button>
-            <button type="button" class="btn2">Button 2</button>
+        <div class="right-area">
+
         </div>
     </section>
     <section class="features-section">
         <div class="features">
             <div class="feature">
                 <i class="fa-solid fa-chess-rook fa-2xl"></i>
-                <h3>Title</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae officia itaque repellat commodi eos error distinctio earum sed! Deserunt, ex!</p>
+                <h3>Strategy</h3>
+                <p>Before we start our work, we generate strategies for our customers according to their features and needs. Each of our customers has their own unique growing strategy.</p>
             </div>
             <div class="feature">
                 <i class="fa-solid fa-wand-magic-sparkles fa-2xl"></i>
-                <h3>Title</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae officia itaque repellat commodi eos error distinctio earum sed! Deserunt, ex!</p>
+                <h3>Design</h3>
+                <p>Once we determine our strategy, we proceed to most enjoyable part of our work! This part, is our key component. Compatible with our strategy, we create digital products thanks to our creative team.</p>
             </div>
             <div class="feature">
                 <i class="fa-solid fa-code fa-2xl"></i>
-                <h3>Title</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae officia itaque repellat commodi eos error distinctio earum sed! Deserunt, ex!</p>
+                <h3>Development</h3>
+                <p>Social media and digital marketing field are changing and renewing every day. That’s why it is essential to be up-to-date as a creative agency. For this, we always consider developing and learning every day.</p>
             </div>
         </div>
     </section>
     <section class="third-section">
         <div class="text-area">
-            <h2>Lorem, ipsum.</h2>
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cupiditate, praesentium similique minima vero quia blanditiis quaerat nihil reiciendis? Labore perspiciatis eum adipisci ipsam voluptatibus sunt animi consequatur tenetur rerum!</p>
+            <h2>THE PROCESS</h2>
+            <h1>How We Grow It</h1>
+            <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet </p>
         </div>
         <div class="bar-area">
             <div class="bar">
-                <h3>Title</h3>
+                <h3>Strategy</h3>
                 <div class="process-bar">
                     <div class="process-bar-90">
                         <h4>90%</h4>
@@ -76,7 +87,7 @@
                 </div>
             </div>
             <div class="bar">
-                <h3>Title</h3>
+                <h3>Concepting</h3>
                 <div class="process-bar">
                     <div class="process-bar-80">
                         <h4>80%</h4>
@@ -84,7 +95,7 @@
                 </div>
             </div>
             <div class="bar">
-                <h3>Title</h3>
+                <h3>Testing</h3>
                 <div class="process-bar">
                     <div class="process-bar-80">
                         <h4>80%</h4>
@@ -95,13 +106,19 @@
     </section>
     <section class="fourth-section">
         <div class="text-area">
-            <h2>Lorem, ipsum.</h2>
-            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h2>WHY US</h2>
+            <h1>Customer-Centered And Creative Designs</h1>
             <div class="bar">
-                <h3>Title</h3>
+                <h3>Meaningful</h3>
                 <div class="process-bar-dark">
                     <div class="process-bar-99">
                         <h4>99%</h4>
+                    </div>
+                </div>
+                <h3>Satisfying</h3>
+                <div class="process-bar-dark">
+                    <div class="process-bar-100">
+                        <h4>100%</h4>
                     </div>
                 </div>
             </div>
@@ -110,56 +127,50 @@
             <div class="under-area">
                 <div class="first-box box">
                     <i class="fa-solid fa-universal-access fa-2xl"></i>
-                    <h2>Feature</h2>
+                    <h2>Accessibility</h2>
                 </div>
                 <div class="box">
                     <i class="fa-solid fa-sitemap fa-2xl"></i>
-                    <h2>Feature</h2>
+                    <h2>Interaction</h2>
                 </div>
             </div>
             <div class="under-area">
                 <div class="box">
                     <i class="fa-regular fa-map fa-2xl"></i>
-                    <h2>Feature</h2>
+                    <h2>Authenticity</h2>
                 </div>
                 <div class="box">
                     <i class="fa-regular fa-lightbulb fa-2xl"></i>
-                    <h2>Feature</h2>
+                    <h2>Solution</h2>
                 </div>
             </div>
         </div>
     </section>
     <section class="fifth-section">
-            <h2>Lorem, ipsum.</h2>
-            <h1>Lorem, ipsum.</h1>
+            <h2>OUR BLOG</h2>
+            <h1>Latest News</h1>
             <div class="blog-area">
                 <div class="blog-box">
-                    <div class="blog-image">
-                        <h3>{ Image }</h3>
-                    </div>
+                    <div class="blog-image blog-image1"></div>
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eum?</p>
                 </div>
                 <div class="blog-box">
-                    <div class="blog-image">
-                        <h3>{ Image }</h3>
-                    </div>
+                    <div class="blog-image blog-image2"></div>
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eum?</p>
                 </div>
                 <div class="blog-box">
-                    <div class="blog-image">
-                        <h3>{ Image }</h3>
-                    </div>
+                    <div class="blog-image blog-image3"></div>
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eum?</p>
                 </div>
             </div>
-            <button type="button" class="btn1">BUTTON</button>
+            <button type="button" class="btn1">See All News</button>
     </section>
     <section class="sixth-section">
-        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-        <button type="button" class="btn1">Button</button>
+        <h1>Intereseted To Work And Cooperate? Go Call Us!</h1>
+        <button type="button" class="btn1">Hire Us</button>
     </section>
 </body>
 <footer>
@@ -168,11 +179,11 @@
         <h3>Company</h3>
     </div>
     <div class="footer-box">
-        <h4>mail@website.com</h4>
-        <h4>+123 456 7890</h4>
+        <h4>contact@company.com</h4>
+        <h4>+1 202-456-1111</h4>
     </div>
     <div class="footer-box">
-        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, velit.</h4>
+        <h4>1600 Pennsylvania Avenue NW, Washington, DC 20500, USA</h4>
     </div>
     <div class="footer-box social-area">
         <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>

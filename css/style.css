@@ -71,27 +71,36 @@ header > nav > .navbar > ul > li > a:hover {
 .first-section {
     height: 80vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 5rem 0rem 5rem 2rem;
+    align-items: center;
+    padding: 2rem;
     background-color: #eff0f2;
 }
-.first-section > .text-area {
-    max-width: 70%;
+.first-section > .left-area {
+    width: 50%;
 }
-.first-section > .text-area > h2 {
+.first-section > .left-area > .text-area > h2 {
     margin: 0.5rem;
     color: #e31836;
     font-size: small;
     text-transform: uppercase;
     font-weight: 800;
 }
-.first-section > .text-area > h1 {
+.first-section > .left-area > .text-area > h1 {
     margin: 0.5rem;
     color:#060e10;
-    font-size: 3.5rem;
-    text-transform: uppercase;
+    font-size: 3.7rem;
     font-weight: 800;
+}
+.first-section > .right-area {
+    height: 100%;
+    width: 50%;
+    margin: 0rem 1rem;
+    border-radius: 10px;
+    background-image: url(/Corporate-Website/images/first-section-image.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
 }
 /* FEATURES SECTION */
 .features-section {
@@ -106,6 +115,7 @@ header > nav > .navbar > ul > li > a:hover {
 }
 .features-section > .features > .feature {
     max-width: 300px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -191,7 +201,6 @@ header > nav > .navbar > ul > li > a:hover {
     margin: 0.5rem;
     color: #eff0f2;
     font-size: 3rem;
-    text-transform: uppercase;
     font-weight: 800;
 }
 .fourth-section > .text-area > .bar >h3 {
@@ -253,7 +262,6 @@ header > nav > .navbar > ul > li > a:hover {
     margin: 0.5rem;
     color:#060e10;
     font-size: 3rem;
-    text-transform: uppercase;
     font-weight: 800;
 }
 .fifth-section > .blog-area {
@@ -278,10 +286,18 @@ header > nav > .navbar > ul > li > a:hover {
     background-color: #e31836;
     margin-bottom: 0.7rem;
     border-radius: 10px 10px 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fifth-section > .blog-area > .blog-box > .blog-image1 {
+    background-image: url(/Corporate-Website/images/Social\ Media\ Marketing.png);
+}
+.fifth-section > .blog-area > .blog-box > .blog-image2 {
+    background-image: url(/Corporate-Website/images/Social\ Media\ Management.png);
+}
+.fifth-section > .blog-area > .blog-box > .blog-image3 {
+    background-image: url(/Corporate-Website/images/Photography\ &\ Video.png);
 }
 .fifth-section > .blog-area > .blog-box > h3 {
     margin: 0.3rem 1rem;
@@ -306,8 +322,10 @@ header > nav > .navbar > ul > li > a:hover {
     margin-right: 2rem;
     color:#060e10;
     font-size: 2rem;
-    text-transform: uppercase;
     font-weight: 800;
+}
+.sixth-section > .btn1 {
+    min-width: 128px;
 }
 /* FOOTER */
 footer {
@@ -350,4 +368,232 @@ footer > .social-area {
     justify-content: center;
     border-top: 1px solid #dedede13;
     color: #eff0f2;
+}
+/* ABOUT PAGE */
+.about-sec1 {
+    background-color: #f6f7f9;
+    color: #060e10;
+    padding: 5rem 2rem;
+}
+.about-sec1 h4 {
+    color: #7b7a79;
+}
+.about-sec1 h4 i {
+    color: #cccccc;
+}
+.about-sec1 h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+.about-sec2 {
+    display: flex;
+    padding: 8rem 2rem;
+}
+.about-sec2 > .sec2-box {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1rem;
+}
+.about-sec2 > .sec2-box > h4{
+    color: #e31836;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.about-sec2 > .sec2-box > h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.about-sec2 > .sec2-box > .btn1 {
+    max-width: 200px;
+}
+.about-sec2 > .sec2-box > p {
+    font-size: larger;
+    color: #7b7a79;
+}
+.about-sec3 { 
+    background-image: url(/Corporate-Website/images/coffee-background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about-sec3 > .big-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #060e10ab;
+    padding: 5rem 0rem;
+}
+.about-sec3 > .big-image > .text-area {
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-sec3 > .big-image > .button-area {
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.about-sec3 > .big-image > .text-area > h2 {
+    margin: 0.5rem;
+    color: #eff0f2;
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.about-sec3 > .big-image > .text-area > h1 {
+    margin: 0.5rem;
+    color: #eff0f2;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.about-sec3 > .big-image > .text-area > p {
+    font-size: larger;
+    color: #eff0f2;
+}
+/* SERVICES PAGE */
+.services-sec1 {
+    background-color: #f6f7f9;
+    color: #060e10;
+    padding: 5rem 2rem;
+}
+.services-sec1 h4 {
+    color: #7b7a79;
+}
+.services-sec1 h4 i {
+    color: #cccccc;
+}
+.services-sec1 h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+.services-sec2 {
+    display: flex;
+    padding: 8rem 2rem;
+}
+.services-sec2 > .serv2-box {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1rem;
+}
+.services-sec2 > .serv2-box > h4{
+    color: #e31836;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.services-sec2 > .serv2-box > h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+.services-sec2 > .serv2-box > p {
+    border-top: 1px solid #dedede;
+    padding-top: 2rem;
+    font-size: larger;
+    color: #7b7a79;
+}
+.services-sec2 > .serv2-box2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    margin: 1rem;
+}
+.services-sec2 > .serv2-box2 h3 {
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+.services-sec2 > .serv2-box2 h4 {
+    font-size: large;
+    color: #808586;
+    margin-bottom: 0.5rem;
+}
+.services-sec2 > .serv2-box2 h5 {
+    font-size: medium;
+    margin-bottom: 0.3rem;
+    color: #7b7a79;
+}
+.services-sec2 > .serv2-box2 p {
+    font-size: larger;
+    color: #e31836;
+    margin-bottom: 0.5rem;
+}
+.services-sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-sec3 > .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.services-sec3 > .gallery > .service-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    width: 350px;
+    color: #dedede;
+}
+.services-sec3 > .gallery > .service-box > .box-content {
+    background-color: #060e10c4;
+    border-radius: 8px;
+    padding: 2rem;
+    min-height: 560px;
+}
+.services-sec3 > .gallery > .service-box1 {
+    background-image: url(/Corporate-Website/images/Social\ Media\ Management.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-sec3 > .gallery > .service-box2 {
+    background-image: url(/Corporate-Website/images/Social\ Media\ Marketing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-sec3 > .gallery > .service-box3 {
+    background-image: url(/Corporate-Website/images/Photography\ &\ Video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.services-sec3 > .gallery > .service-box i {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.services-sec3 > .gallery > .service-box h2 {
+    margin-bottom: 1rem;
+}
+.services-sec3 > .gallery > .service-box p {
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+.services-sec4 {
+    display: flex;
+    padding: 5rem 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f7f9;
+}
+.services-sec4 > h1 {
+    margin-right: 2rem;
+    color:#060e10;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.services-sec4 > .btn1 {
+    min-width: 128px;
 }

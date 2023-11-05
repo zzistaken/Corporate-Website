@@ -1,0 +1,73 @@
+.first-section > .left-area {
+    width: 100%;
+}
+.first-section > .left-area > .text-area > h1 {
+    font-size: 2.5rem;
+}
+.third-section {
+    flex-direction: column;
+    padding: 2rem 0rem;
+}
+.third-section > .text-area {
+    width: 100%;
+}
+.third-section > .bar-area {
+    width: 100%;
+}
+.fourth-section {
+    flex-direction: column;
+}
+.fourth-section > .text-area {
+    width: 100%;
+}
+.fourth-section > .box-area {
+    width: 100%;
+}
+.sixth-section {
+    flex-direction: column;
+}
+.sixth-section > h1 {
+    margin-bottom: 1rem;
+}
+footer {
+    padding: 1rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer > .footer-box {
+    width: 100%;
+}
+.about-sec2 {
+    padding: 2rem 2rem;
+    flex-direction: column;
+}
+.about-sec2 > .sec2-box {
+    width: 100%;
+}
+.about-sec3 > .big-image {
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+.about-sec3 > .big-image > .text-area {
+    width: 100%;
+    padding: 2rem;
+}
+.about-sec3 > .big-image > .button-area {
+    width: 100%;
+    padding: 2rem;
+}
+.services-sec2 {
+    flex-direction: column;
+    padding: 2rem;
+}
+.services-sec2 > .serv2-box {
+    width: 100%;
+}
+.services-sec2 > .serv2-box2 {
+    width: 100%;
+}
+.services-sec3 > .gallery > .service-box {
+    min-height: auto;
+}

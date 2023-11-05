@@ -1,0 +1,10 @@
+.first-section {
+    height: 60vh;
+}
+.first-section > .left-area {
+    width: 100%;
+}
+.first-section > .right-area {
+    width: 0%;
+    height: 0%;
+}
