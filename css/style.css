@@ -66,6 +66,8 @@ header > nav > .navbar > ul > li > a {
 }
 header > nav > .navbar > ul > li > a:hover {
     color: #e31836;
+    border-bottom: 4px solid #e31836;
+    padding-bottom: 22px;
 }
 /* FIRST SECTION */
 .first-section {
